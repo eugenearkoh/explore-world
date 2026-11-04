@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover unforgettable Ghanaian and international destinations with ExploreWorld. Explore curated trips and send a booking enquiry.">
+  <title>ExploreWorld | Discover More</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="ExploreWorld home"><span class="brand-mark">✦</span><span>explore<span class="brand-accent">world</span></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="main-nav" id="mainNav">
+      <a href="#home">Home</a><a href="#destinations">Destinations</a><a href="#experiences">Experiences</a><a href="#about">About</a>
+      <a class="nav-cta" href="#contact">Plan a trip <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow light">YOUR NEXT STORY STARTS HERE</p>
+        <h1>Discover more.<br><em>Experience life.</em></h1>
+        <p class="hero-copy">From Ghana's golden coastline to the world's most unforgettable escapes, find a journey worth remembering.</p>
+        <a class="button button-primary" href="#destinations">Explore destinations <span>→</span></a>
+        <div class="hero-note"><span class="note-line"></span> Thoughtfully curated journeys</div>
+      </div>
+      <div class="hero-bottom"><span>01 / 04</span><span>GHANA · AFRICA · THE WORLD</span></div>
+    </section>
+
+    <section class="trust-strip" aria-label="Our travel approach">
+      <div><strong>01</strong><span>Curated destinations</span></div>
+      <div><strong>02</strong><span>Flexible experiences</span></div>
+      <div><strong>03</strong><span>Personal trip enquiries</span></div>
+    </section>
+
+    <section class="section destinations-section" id="destinations">
+      <div class="section-heading">
+        <div><p class="eyebrow">FIND YOUR SOMEWHERE</p><h2>Places that stay<br><em>with you.</em></h2></div>
+        <p class="section-intro">Explore handpicked places, from heritage landmarks and lush escapes to beautiful coastlines beyond Ghana.</p>
+      </div>
+
+      <div class="search-panel">
+        <label class="search-box"><span>⌕</span><input id="destinationSearch" type="search" placeholder="Search destinations..." aria-label="Search destinations"></label>
+        <div class="filter-buttons" role="group" aria-label="Filter destinations">
+          <button class="filter-btn active" data-filter="all">All places</button>
+          <button class="filter-btn" data-filter="ghana">Ghana</button>
+          <button class="filter-btn" data-filter="international">International</button>
+        </div>
+      </div>
+
+      <div class="destination-grid" id="destinationGrid">
+        <article class="destination-card" data-region="ghana" data-name="Cape Coast Castle Ghana heritage history">
+          <div class="card-image"><img src="https://www.ghananice.com/real/cape-coast-castle.jpg" alt="Cape Coast Castle on Ghana's Atlantic coast" loading="lazy"><span class="card-label">HERITAGE</span><button class="save-btn" aria-label="Save Cape Coast Castle">♡</button></div>
+          <div class="card-body"><div class="card-meta"><span>Central Region, Ghana</span><span>2 days</span></div><h3>Cape Coast & Elmina</h3><p>Explore historic castles, coastal towns and stories that shaped a nation.</p><div class="card-footer"><div><small>Indicative package from</small><strong>GH₵ 1,250 <small>/ person</small></strong></div><a class="text-link book-link" href="#contact" data-place="Cape Coast & Elmina">Enquire <span>↗</span></a></div></div>
+        </article>
+
+        <article class="destination-card" data-region="ghana" data-name="Kakum National Park canopy walkway rainforest Ghana nature">
+          <div class="card-image"><img src="https://www.ghananice.com/real/kakum-walkway.jpg" alt="Kakum National Park canopy walkway above the rainforest" loading="lazy"><span class="card-label">ADVENTURE</span><button class="save-btn" aria-label="Save Kakum National Park">♡</button></div>
+          <div class="card-body"><div class="card-meta"><span>Central Region, Ghana</span><span>1 day</span></div><h3>Kakum Rainforest Escape</h3><p>Walk above the forest canopy and reconnect with nature.</p><div class="card-footer"><div><small>Indicative package from</small><strong>GH₵ 650 <small>/ person</small></strong></div><a class="text-link book-link" href="#contact" data-place="Kakum Rainforest Escape">Enquire <span>↗</span></a></div></div>
+        </article>
+
+        <article class="destination-card" data-region="ghana" data-name="Wli Waterfalls Volta Region Ghana">
+          <div class="card-image"><img src="https://www.ghananice.com/real/wli-falls.jpg" alt="Wli Waterfalls in Ghana's Volta Region" loading="lazy"><span class="card-label">NATURE</span><button class="save-btn" aria-label="Save Wli Waterfalls">♡</button></div>
+          <div class="card-body"><div class="card-meta"><span>Volta Region, Ghana</span><span>2 days</span></div><h3>Wli Falls & Volta Views</h3><p>A refreshing escape featuring scenic trails and Ghana's tallest waterfall.</p><div class="card-footer"><div><small>Indicative package from</small><strong>GH₵ 1,450 <small>/ person</small></strong></div><a class="text-link book-link" href="#contact" data-place="Wli Falls & Volta Views">Enquire <span>↗</span></a></div></div>
+        </article>
+
+        <article class="destination-card" data-region="ghana" data-name="Busua Beach Western Region Ghana coast">
+          <div class="card-image"><img src="https://www.ghananice.com/photos/busua-beach-shoreline.webp" alt="Busua Beach along Ghana's western coastline" loading="lazy"><span class="card-label">BEACH</span><button class="save-btn" aria-label="Save Busua Beach">♡</button></div>
+          <div class="card-body"><div class="card-meta"><span>Western Region, Ghana</span><span>3 days</span></div><h3>Busua Beach Retreat</h3><p>Slow down by the ocean with beach time and coastal village charm.</p><div class="card-footer"><div><small>Indicative package from</small><strong>GH₵ 1,900 <small>/ person</small></strong></div><a class="text-link book-link" href="#contact" data-place="Busua Beach Retreat">Enquire <span>↗</span></a></div></div>
+        </article>
+
+        <article class="destination-card" data-region="international" data-name="Zanzibar Tanzania island beach">
+          <div class="card-image"><img src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1000&q=85" alt="Turquoise ocean and tropical beach" loading="lazy"><span class="card-label">ISLAND LIFE</span><button class="save-btn" aria-label="Save Zanzibar">♡</button></div>
+          <div class="card-body"><div class="card-meta"><span>Zanzibar, Tanzania</span><span>5 days</span></div><h3>Zanzibar Island Escape</h3><p>Discover warm waters, island culture and slow tropical days.</p><div class="card-footer"><div><small>Indicative package from</small><strong>Request quote</strong></div><a class="text-link book-link" href="#contact" data-place="Zanzibar Island Escape">Enquire <span>↗</span></a></div></div>
+        </article>
+
+        <article class="destination-card" data-region="international" data-name="Dubai United Arab Emirates city skyline">
+          <div class="card-image"><img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1000&q=85" alt="Dubai skyline at dusk" loading="lazy"><span class="card-label">CITY BREAK</span><button class="save-btn" aria-label="Save Dubai">♡</button></div>
+          <div class="card-body"><div class="card-meta"><span>Dubai, UAE</span><span>5 days</span></div><h3>Dubai City Discovery</h3><p>Experience bold architecture, desert adventures and vibrant city life.</p><div class="card-footer"><div><small>Indicative package from</small><strong>Request quote</strong></div><a class="text-link book-link" href="#contact" data-place="Dubai City Discovery">Enquire <span>↗</span></a></div></div>
+        </article>
+      </div>
+      <p class="empty-state" id="emptyState" hidden>No destinations match your search. Try another place.</p>
+      <p class="price-note">Package prices shown are illustrative estimates for this demo, not live offers. Final costs depend on dates, group size, transport, accommodation and inclusions. Confirm all details before payment.</p>
+    </section>
+
+    <section class="experience" id="experiences">
+      <div class="experience-image"><img src="https://www.ghananice.com/real/jamestown-lighthouse.jpg" alt="Jamestown Lighthouse in Accra" loading="lazy"></div>
+      <div class="experience-copy"><p class="eyebrow light">TRAVEL WITH MEANING</p><h2>Not just a trip.<br><em>A new perspective.</em></h2><p>We believe the best journeys connect you to people, culture and places. Start close to home or take your curiosity further.</p><a class="button button-outline" href="#contact">Let's plan together <span>→</span></a></div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="about-number">EW<span> / 01</span></div>
+      <div><p class="eyebrow">A LITTLE ABOUT US</p><h2>Good journeys begin<br>with <em>good planning.</em></h2></div>
+      <p class="about-copy">ExploreWorld is a travel website concept built to make discovering destinations and starting a trip enquiry feel simple. Tell us what you have in mind and we'll help you take the next step.</p>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="contact-copy"><p class="eyebrow light">YOUR JOURNEY, YOUR WAY</p><h2>Where will we<br><em>take you?</em></h2><p>Share a few details and start a conversation about your next trip.</p><div class="contact-detail">✦ &nbsp; Personalised travel enquiries</div></div>
+      <form class="enquiry-form" id="enquiryForm">
+        <div class="form-row"><label>Your name<input type="text" id="name" name="name" placeholder="Full name" required></label><label>Email address<input type="email" id="email" name="email" placeholder="you@example.com" required></label></div>
+        <label>Where would you like to go?<select id="place" name="place" required><option value="">Choose a destination</option><option>Cape Coast & Elmina</option><option>Kakum Rainforest Escape</option><option>Wli Falls & Volta Views</option><option>Busua Beach Retreat</option><option>Zanzibar Island Escape</option><option>Dubai City Discovery</option><option>I'm open to suggestions</option></select></label>
+        <label>Tell us about your plans<textarea id="message" name="message" rows="3" placeholder="Travel dates, number of people, budget or anything else..."></textarea></label>
+        <button class="button button-primary form-submit" type="submit">Prepare enquiry <span>↗</span></button>
+        <p class="form-help">This demo opens your email app with the enquiry details. No information is stored on this website.</p>
+        <p class="form-status" id="formStatus" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="brand footer-brand" href="#home"><span class="brand-mark">✦</span><span>explore<span class="brand-accent">world</span></span></a><p>Discover more. Experience life.</p><span>© <span id="year"></span> ExploreWorld. Website concept.</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
